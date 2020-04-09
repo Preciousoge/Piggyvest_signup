@@ -2,13 +2,7 @@
 
 body{
 
-	height: 100vh;
-
-	background-position:
-	top left,
-	top 0px right 0px,
-	bottom 0px left 0px,
-	bottom 0px right 0px;
+	height: 50vh;
 
 	background-size: 15% 15% 15% 5%;
 	background-repeat: no-repeat;
@@ -17,19 +11,21 @@ body{
  	margin: 20px;
   	display: flex;
 
+ background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-origin: content-box, border-box;
+ 	margin: 20px;
+  	background-position: 
+  	top 10px left 10px,
+  	top 10px right 10px,
+  	bottom 10px left 10px,
+  	bottom 10px right 10px;
 
- 
 
 
+	
 
-	background-image: 
-	url(images/data1.png),
-	url(images/data2.png),
-	url(images/data3.png),
-	url(images/data4.png);
-
-
-	background-color: #172766;
+	background-color: #ADD8E6;
 	display: flex;
 	flex-flow: row wrap;
 
@@ -60,7 +56,6 @@ border-top-right-radius: 10px;
 .img{
 	margin: 0 auto;
 	width: 500px;
-	background:#172766 ;
 	padding: 20px;
 	color: white;
 	display: flex;
@@ -70,9 +65,11 @@ border-top-right-radius: 10px;
 	align-items: center;
 	float: top;
 }
+
+
 .box{
 	display: flex;
-	
+	 
 
 }
 
@@ -93,13 +90,17 @@ margin: 0 auto;
 border-top-left-radius: 25px;
 border-top-right-radius: 25px;
 resize: vertical;
+display: flex;
+align-items: center;
+
+
 
 
  
 }
-p{
+/*p{
 	line-height: 50px;
-	;
+	*/
 }
 .create{
 	color: #083e9e;
@@ -108,11 +109,12 @@ p{
 	line-height: 36px;
 	font-family: sans-serif;
 }
-h4{
+h1{
 	font-weight: 700px;
 	font-size: 24px
 	line-height:36px;
 	color:#083e9e;
+	margin-bottom: -6px;
 }
 #pwd, #rcode, #fname, #phone, #email
 {
@@ -124,6 +126,18 @@ h4{
   font-weight: 400;
   font-size: 16px;
 line-height: 24px;
+background-color: #cce2f0;
+
+}
+#select{
+	background-color: #cce2f0;
+	width: 100% ;
+	height: 50px;
+	border-radius: 3px;
+	border-style: hidden;
+	font-size: 16px;
+
+	/*padding: 10px;*/
 
 }
 	
